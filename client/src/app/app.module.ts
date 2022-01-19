@@ -10,9 +10,10 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import {ArticleViewComponent} from "./article-view/article-view.component";
+import { ArticleListComponent } from './article-list/article-list.component';
 
 @NgModule({
-  declarations: [AppComponent, ArticleViewComponent],
+  declarations: [AppComponent, ArticleViewComponent, ArticleListComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

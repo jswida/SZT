@@ -1,0 +1,7 @@
+<div class="content"  [ngStyle]="{'font-size': size, 'color': color, 'background-color': background}" *ngFor="let article of articleList">
+  <div>
+    <h1>{{article.title}}</h1>
+    <p>{{article.content}}</p>
+    <mat-divider></mat-divider>
+  </div>
+</div>

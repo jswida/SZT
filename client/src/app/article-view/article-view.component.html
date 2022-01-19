@@ -1,1 +1,5 @@
-<div class="article" [ngStyle]="{'font-size': size, 'color': color, 'background-color': background}" [innerHTML]="article"></div>
+<div>
+  <div class="article" [ngStyle]="{'font-size': size, 'color': color, 'background-color': background}" [innerHTML]="article">
+  </div>
+  <button (click)="showHistory">Historia zmian artykułu</button>
+</div>

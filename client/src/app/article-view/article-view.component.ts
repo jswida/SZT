@@ -15,4 +15,8 @@ export class ArticleViewComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  showHistory(){
+
+  }
+
 }
